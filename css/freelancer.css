@@ -94,6 +94,9 @@ header .intro-text .skills {
   font-weight: 300;
   color: #0E705D;
 }
+#projects-heading {
+  color: #2C3E50;
+}
 @media (min-width: 768px) {
   header .container {
     padding-top: 200px;
