@@ -69,7 +69,6 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  /*background: #18BC9C;*/
   background: #FFECD8;
   color: white;
 }
@@ -96,6 +95,9 @@ header .intro-text .skills {
 }
 #projects-heading {
   color: #2C3E50;
+}
+.modal-close {
+  margin-top: 12px;
 }
 @media (min-width: 768px) {
   header .container {
