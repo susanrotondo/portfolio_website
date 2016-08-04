@@ -96,6 +96,11 @@ header .intro-text .skills {
 #projects-heading {
   color: #2C3E50;
 }
+#tech-list {
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 2;
+}
 .modal-close {
   margin-top: 12px;
 }
