@@ -64,7 +64,7 @@
           <div class="container">
               <div class="row">
                   <div class="col-lg-12">
-                      <img class="img-responsive" src="img/Logo.png" alt="logo">
+                      <img id="header-logo" class="img-responsive" src="img/Logo.png" alt="logo">
                       <div class="intro-text">
                           <span class="name">Susan Rotondo</span>
                           <span class="skills">Full Stack Web Developer</span>
@@ -72,6 +72,7 @@
                   </div>
               </div>
           </div>
+          <img id="pattern" src="img/pattern_strip2.png" alt="" />
       </header>
 
       <!-- Portfolio Grid Section -->
@@ -91,7 +92,7 @@
                                   <i class="fa fa-search-plus fa-3x"></i>
                               </div>
                           </div>
-                          <img src="img/project_one.png" class="img-responsive" alt="">
+                          <img src="img/project_four.png" class="img-responsive" alt="">
                       </a>
                   </div>
                   <div class="col-sm-4 portfolio-item">
@@ -101,7 +102,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/project_website.png" class="img-responsive" alt="">
+                        <img src="img/project_one.png" class="img-responsive" alt="">
                       </a>
                   </div>
                   <div class="col-sm-4 portfolio-item">
@@ -111,7 +112,7 @@
                                   <i class="fa fa-search-plus fa-3x"></i>
                               </div>
                           </div>
-                          <img src="img/project_four.png" class="img-responsive" alt="">
+                          <img src="img/project_website.png" class="img-responsive" alt="">
                       </a>
                   </div>
                   <!-- <div class="col-sm-4 portfolio-item">
@@ -250,6 +251,49 @@
               <div class="container">
                   <div class="row">
                       <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>librys</h2>
+                            <hr class="star-primary">
+                            <img src="img/project_four.png" class="img-responsive img-centered" alt="">
+                            <p>A handy reading app to help you track books you've read!<br>
+                              librys uses the Google Books API to allow users to easily search for books they've read.
+                              Books can be stored on their "bookshelf" for easy reference and can also be rated.
+                            </p>
+                            <p>
+                              <strong>Technologies Used: JavaScript, Node.js, MongoDB, Express, Angular.js, UI Bootstrap, HTML, CSS</strong>
+                            </p>
+                            <p>
+                              Access by clicking <a href="https://pacific-hollows-56597.herokuapp.com/" target="_blank">here</a>
+                              or to install the app, fork the GitHub repository <a href="https://github.com/susanrotondo/librys" target="_blank">here</a>.
+                              You will then need to:
+                            </p>
+                            <p>
+                              1) Clone the forked repo to your local workspace
+                            </p>
+                            <p>
+                              2) In your local app directory, use npm install to install app dependencies specified in package.json
+                            </p>
+                            <p>
+                              3) Connect your local app to a local (MongoDB) or remote (mLab) database of your own
+                            </p>
+                            <button type="button" class="btn btn-default modal-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-content">
+              <div class="close-modal" data-dismiss="modal">
+                  <div class="lr">
+                      <div class="rl">
+                      </div>
+                  </div>
+              </div>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-8 col-lg-offset-2">
                           <div class="modal-body">
                               <h2>Concentration!</h2>
                               <hr class="star-primary">
@@ -273,7 +317,7 @@
               </div>
           </div>
       </div>
-      <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
           <div class="modal-content">
               <div class="close-modal" data-dismiss="modal">
                   <div class="lr">
@@ -305,49 +349,6 @@
                               </p>
                               <button type="button" class="btn btn-default modal-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                           </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-content">
-              <div class="close-modal" data-dismiss="modal">
-                  <div class="lr">
-                      <div class="rl">
-                      </div>
-                  </div>
-              </div>
-              <div class="container">
-                  <div class="row">
-                      <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>librys</h2>
-                            <hr class="star-primary">
-                            <img src="img/project_four.png" class="img-responsive img-centered" alt="">
-                            <p>A handy reading app to help you track books you've read!<br>
-                              librys uses the Google Books API to allow users to easily search for books they've read.
-                              Books can be stored on their "bookshelf" for easy reference and can also be rated.
-                            </p>
-                            <p>
-                              <strong>Technologies Used: JavaScript, Node.js, MongoDB, Express, Angular.js, UI Bootstrap, HTML, CSS</strong>
-                            </p>
-                            <p>
-                              Access by clicking <a href="https://pacific-hollows-56597.herokuapp.com/" target="_blank">here</a>
-                              or to install the app, fork the GitHub repository <a href="https://github.com/susanrotondo/librys" target="_blank">here</a>.
-                              You will then need to:
-                            </p>
-                            <p>
-                              1) Clone the forked repo to your local workspace
-                            </p>
-                            <p>
-                              2) In your local app directory, use npm install to install app dependencies specified in package.json
-                            </p>
-                            <p>
-                              3) Connect your local app to a local (MongoDB) or remote (mLab) database of your own
-                            </p>
-                            <button type="button" class="btn btn-default modal-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
                       </div>
                   </div>
               </div>

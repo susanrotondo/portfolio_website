@@ -93,6 +93,9 @@ header .intro-text .skills {
   font-weight: 300;
   color: #0E705D;
 }
+#pattern {
+  width: 100%;
+}
 #projects-heading {
   color: #2C3E50;
 }
@@ -100,6 +103,7 @@ header .intro-text .skills {
   list-style-type: none;
   font-size: 18px;
   line-height: 2;
+  padding: 0;
 }
 .modal-close {
   margin-top: 12px;
@@ -209,6 +213,9 @@ section.success {
   section.first {
     padding-top: 75px;
   }
+}
+#header-logo {
+  max-width: 50%;
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;
